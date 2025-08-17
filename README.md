@@ -110,6 +110,3 @@ mvn org.pitest:pitest-maven:mutationCoverage
 📌 Conclusion: Hybrid LLMs outperform both standalone LLMs and traditional tools, making them a promising approach for "AI-driven software testing".
 
 ---
-
-
-👉 Would you like me to also add **badges** (e.g., Python version, license, build status) and a **quick-start code snippet** in the README to make it look more professional for recruiters/reviewers?
