@@ -1,6 +1,6 @@
 # Comparative-Analysis-of-Hybrid-LLMs-for-Automated-Unit-Test-Generation-and-Mutation-Testing
 
-## 📌 Overview
+##  Overview
 
 This project explores the use of "Hybrid Large Language Models (LLMs)" for "automated unit test generation and mutation testing". Traditional testing tools like EvoSuite (Java) and Pynguin (Python) provide structural coverage but often lack meaningful assertions and edge-case handling. On the other hand, standalone LLMs produce human-readable test cases but suffer from logical flaws and hallucinated assertions.
 
@@ -13,7 +13,7 @@ Our work introduces "Hybrid LLMs" (e.g., LLaMA + Claude ,  GPT-4 + DeepSeek , Ge
 
 We also integrate "Mutation Testing" (using PIT for Java and MutPy for Python) to evaluate the fault-detection ability of the generated test cases.
 
-## ✨ Key Features
+##  Key Features
 
 * 🔹 Comparative analysis of "standalone vs. hybrid LLMs" for unit test generation.
 * 🔹 Framework for evaluating test cases based on:
@@ -29,7 +29,7 @@ We also integrate "Mutation Testing" (using PIT for Java and MutPy for Python) t
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ├── src/                  # Source code (functions under test & test cases)
@@ -64,7 +64,7 @@ We also integrate "Mutation Testing" (using PIT for Java and MutPy for Python) t
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### Run baseline manual tests:
 
@@ -92,7 +92,7 @@ mvn org.pitest:pitest-maven:mutationCoverage
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 * Standalone LLMs:
 
@@ -107,6 +107,6 @@ mvn org.pitest:pitest-maven:mutationCoverage
     * Test Effectiveness: 97.61%
     * Zero redundancy
 
-📌 Conclusion: Hybrid LLMs outperform both standalone LLMs and traditional tools, making them a promising approach for "AI-driven software testing".
+ Conclusion: Hybrid LLMs outperform both standalone LLMs and traditional tools, making them a promising approach for "AI-driven software testing".
 
 ---
